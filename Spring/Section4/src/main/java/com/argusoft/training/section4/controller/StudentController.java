@@ -3,11 +3,12 @@ package com.argusoft.training.section4.controller;
 import java.util.ArrayList;
 import java.util.List;
 import com.argusoft.training.section4.entity.Student;
+import com.argusoft.training.section4.entity.StudentErrorResponse;
+import com.argusoft.training.section4.exception.StudentNotFoundException;
 import jakarta.annotation.PostConstruct;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
@@ -28,8 +29,12 @@ public class StudentController {
     @GetMapping("/students/{studentId}")
     public Student getAllStudent(@PathVariable int studentId){
 
+        if(studentId >= this.list.size() || studentId < 0){
+            throw new StudentNotFoundException("Student is not found - " + studentId);
+        }
         return list.get(studentId);
 
     }
+
 
 }
