@@ -1,4 +1,4 @@
-package com.argusoft.training.section3.repository;
+package com.argusoft.training.section3.dao;
 
 import com.argusoft.training.section3.dao.StudentDAO;
 import com.argusoft.training.section3.entity.Student;

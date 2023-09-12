@@ -1,4 +1,4 @@
-package com.argusoft.training.section4employee.repository;
+package com.argusoft.training.section4employee.dao;
 
 import com.argusoft.training.section4employee.dao.EmployeeDAO;
 import com.argusoft.training.section4employee.entity.Employee;
@@ -17,6 +17,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         this.entityManager = entityManager;
     }
 
+    @Override
     public Employee findById(int id){
         return entityManager.find(Employee.class, 1);
     }
