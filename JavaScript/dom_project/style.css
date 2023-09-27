@@ -1,0 +1,9 @@
+.win-score {
+  font-weight: bold;
+}
+.win {
+  background-color: greenyellow;
+}
+.lose {
+  background-color: rgb(252, 122, 139);
+}
