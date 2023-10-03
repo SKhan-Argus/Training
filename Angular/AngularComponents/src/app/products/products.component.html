@@ -1,0 +1,23 @@
+<div *ngFor="let product of products">
+  <div class="product-container">
+    <div class="image-container">
+      <img
+        [src]="product.image"
+        alt=""
+        style="max-width: 50px; max-height: 50px"
+      />
+    </div>
+    <div
+      class="info-container"
+      [ngStyle]="{
+        backgroundColor: product.available === 'y' ? '#d5f5e3' : '#fadbd8'
+      }"
+    >
+      <p>{{ product.name }} &nbsp;</p>
+      <p>{{ product.color }} &nbsp;</p>
+      <p [ngStyle]="{ color: product.available === 'y' ? 'green' : 'red' }">
+        {{ product.available }} &nbsp;
+      </p>
+    </div>
+  </div>
+</div>
