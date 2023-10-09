@@ -1,0 +1,12 @@
+<h3>User detail</h3>
+<div class="container" *ngIf="user != undefined">
+  <div>{{ user.name }}</div>
+  <div>{{ user.job }}</div>
+
+  <div>{{ user.gender }}</div>
+
+  <div>{{ user.country }}</div>
+
+  <div>{{ user.age }}</div>
+  <div><img [src]="user.avatar" alt="" /></div>
+</div>
