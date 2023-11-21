@@ -1,6 +1,3 @@
-
-
-
 import 'package:flutter/material.dart';
 
 class DietModel {
@@ -38,7 +35,6 @@ class DietModel {
             boxColor: Color(0xff9DCEFF)
         )
     );
-
     diets.add(
         DietModel(
             name: 'Canai Bread',

@@ -21,7 +21,6 @@ class _HomePageState extends State<HomePage> {
     popularDiets = PopularDietsModel.getPopularDiets();
     diets = DietModel.getDiets();
     categories = CategoryModel.getCategories();
-
   }
 
   // void _getPopularDiets() {

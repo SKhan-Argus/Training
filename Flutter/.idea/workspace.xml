@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed9fb274-c235-48cd-bf41-3ce1cb355d76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dicee/images/dice1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicee/images/dice2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicee/images/dice3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicee/images/dice4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicee/images/dice5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicee/images/dice6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magic_8_ball/images/ball1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magic_8_ball/images/ball2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magic_8_ball/images/ball3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magic_8_ball/images/ball4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magic_8_ball/images/ball5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voteinsta/assets/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voteinsta/assets/images/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xylophone/assets/note7.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/lib/models/diet_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/lib/models/diet_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/lib/pages/home_page.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2XWu0m3aCUMnZo1F57NcaAaO1CZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed9fb274-c235-48cd-bf41-3ce1cb355d76" name="Changes" comment="" />
+      <created>1698756936362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698756936362</updated>
+    </task>
+    <servers />
+  </component>
+</project>
